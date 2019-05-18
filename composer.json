@@ -1,0 +1,26 @@
+{
+    "name": "kazik/news-package",
+    "description": "News package for Laravel framework",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kazydub Kostia",
+            "email": "kkazdyub@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "kazik\\newsPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kazik\\newsPackage\\tests\\": "tests/"
+        }
+    }
+}
